@@ -3,13 +3,13 @@ name: Update Submodules
 on:
   push:
     branches:
-      - main
+      - main # Run only on pushes to the 'main' branch
   pull_request:
     branches:
-      - main
+      - main # Run on pull requests targeting the 'main' branch
   schedule:
     - cron: '0 0 * * 0' # Run every Sunday at midnight UTC
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch: # Allow manual trigger of the workflow
 
 jobs:
   update-submodules:
@@ -29,13 +29,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # Step 3: Update all submodules to their latest commits
-      - name: Update Submodules
+      # Step 3: Update all submodules and push changes
+      - name: Update and Push Submodules
         run: |
           git submodule update --remote --merge
-
-      # Step 4: Commit and Push Changes
-        run: |
           git add .
           git commit -m "Automated update of submodules" || echo "No changes to commit"
           git push origin main
