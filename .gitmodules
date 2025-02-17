@@ -22,3 +22,6 @@
 [submodule "learning_notebooks/generative-ai_silvererudite"]
 	path = learning_notebooks/generative-ai_silvererudite
 	url = https://github.com/silvererudite/generative-ai.git
+[submodule "learning_notebooks/gan-projects_nerminnuraydogan"]
+	path = learning_notebooks/gan-projects_nerminnuraydogan
+	url = https://github.com/nerminnuraydogan/gan-projects.git
