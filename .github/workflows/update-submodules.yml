@@ -3,13 +3,13 @@ name: Update Submodules
 on:
   push:
     branches:
-      - main # Trigger workflow only on pushes to the 'main' branch
+      - main
   pull_request:
     branches:
-      - main # Trigger workflow only on pull requests to the 'main' branch
+      - main
   schedule:
     - cron: '0 0 * * 0' # Run every Sunday at midnight UTC
-  workflow_dispatch: # Allow manual triggering of the workflow
+  workflow_dispatch: # Allow manual trigger
 
 jobs:
   update-submodules:
@@ -34,8 +34,7 @@ jobs:
         run: |
           git submodule update --remote --merge
 
-      # Step 4: Commit and push changes if there are updates
-      - name: Commit and Push Changes
+      # Step 4: Commit and Push Changes
         run: |
           git add .
           git commit -m "Automated update of submodules" || echo "No changes to commit"
