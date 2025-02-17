@@ -1,0 +1,9 @@
+[submodule "awesome_gen_ai_hots/awesome-generative-ai-guide"]
+	path = awesome_gen_ai_hots/awesome-generative-ai-guide
+	url = https://github.com/aishwaryanr/awesome-generative-ai-guide.git
+[submodule "awesome_gen_ai_hots/awesome-generative-ai-steven2358"]
+	path = awesome_gen_ai_hots/awesome-generative-ai-steven2358
+	url = https://github.com/steven2358/awesome-generative-ai.git
+[submodule "awesome_gen_ai_hots/awesome-generative-ai-filipecalegario"]
+	path = awesome_gen_ai_hots/awesome-generative-ai-filipecalegario
+	url = https://github.com/filipecalegario/awesome-generative-ai.git
