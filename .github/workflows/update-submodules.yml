@@ -1,23 +1,44 @@
 name: Update Submodules
 
 on:
+  push:
+    branches:
+      - main # Trigger workflow only on pushes to the 'main' branch
+  pull_request:
+    branches:
+      - main # Trigger workflow only on pull requests to the 'main' branch
   schedule:
-    - cron: '0 0 * * 0' # Runs weekly on Sunday at midnight
-  workflow_dispatch: # Allows manual trigger
+    - cron: '0 0 * * 0' # Run every Sunday at midnight UTC
+  workflow_dispatch: # Allow manual triggering of the workflow
 
 jobs:
   update-submodules:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository with submodules
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          submodules: recursive
+          submodules: recursive # Ensure submodules are checked out
+          persist-credentials: true # Persist credentials for pushing changes
 
+      # Step 2: Configure Git (required for pushing updates)
+      - name: Set up Git User
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Step 3: Update all submodules to their latest commits
       - name: Update Submodules
         run: |
           git submodule update --remote --merge
+
+      # Step 4: Commit and push changes if there are updates
+      - name: Commit and Push Changes
+        run: |
           git add .
           git commit -m "Automated update of submodules" || echo "No changes to commit"
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use GitHub-provided token for authentication
