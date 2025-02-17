@@ -7,3 +7,6 @@
 [submodule "awesome_gen_ai_hots/awesome-generative-ai-filipecalegario"]
 	path = awesome_gen_ai_hots/awesome-generative-ai-filipecalegario
 	url = https://github.com/filipecalegario/awesome-generative-ai.git
+[submodule "gen_ai_papers/GenAI_Papers_kevinknights29"]
+	path = gen_ai_papers/GenAI_Papers_kevinknights29
+	url = https://github.com/kevinknights29/GenAI_Papers.git
