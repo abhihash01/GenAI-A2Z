@@ -13,3 +13,12 @@
 [submodule "awesome_gen_ai_hots/Awesome-Diffusion-Models_diff-usion"]
 	path = awesome_gen_ai_hots/Awesome-Diffusion-Models_diff-usion
 	url = https://github.com/diff-usion/Awesome-Diffusion-Models.git
+[submodule "learning_notebooks/learn-generative-ai_panaverse"]
+	path = learning_notebooks/learn-generative-ai_panaverse
+	url = https://github.com/panaverse/learn-generative-ai.git
+[submodule "learning_notebooks/transformers-gen-ai_AlexIoannides"]
+	path = learning_notebooks/transformers-gen-ai_AlexIoannides
+	url = https://github.com/AlexIoannides/transformers-gen-ai.git
+[submodule "learning_notebooks/generative-ai_silvererudite"]
+	path = learning_notebooks/generative-ai_silvererudite
+	url = https://github.com/silvererudite/generative-ai.git
