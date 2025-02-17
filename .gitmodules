@@ -10,3 +10,6 @@
 [submodule "gen_ai_papers/GenAI_Papers_kevinknights29"]
 	path = gen_ai_papers/GenAI_Papers_kevinknights29
 	url = https://github.com/kevinknights29/GenAI_Papers.git
+[submodule "awesome_gen_ai_hots/Awesome-Diffusion-Models_diff-usion"]
+	path = awesome_gen_ai_hots/Awesome-Diffusion-Models_diff-usion
+	url = https://github.com/diff-usion/Awesome-Diffusion-Models.git
