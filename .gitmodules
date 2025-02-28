@@ -28,3 +28,6 @@
 [submodule "learning_notebooks/diffusion-gan-vae-pytorch_deepmancer"]
 	path = learning_notebooks/diffusion-gan-vae-pytorch_deepmancer
 	url = https://github.com/deepmancer/diffusion-gan-vae-pytorch
+[submodule "learning_notebooks/GenerativeModels_Project-MONAI"]
+	path = learning_notebooks/GenerativeModels_Project-MONAI
+	url = https://github.com/Project-MONAI/GenerativeModels
