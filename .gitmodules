@@ -37,3 +37,6 @@
 [submodule "learning_notebooks/Synthesis-Studio_mijanr"]
 	path = learning_notebooks/Synthesis-Studio_mijanr
 	url = https://github.com/mijanr/Synthesis-Studio
+[submodule "learning_notebooks/genai-sandbox_digicatapult"]
+	path = learning_notebooks/genai-sandbox_digicatapult
+	url = https://github.com/digicatapult/genai-sandbox
