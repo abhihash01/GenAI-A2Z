@@ -43,3 +43,6 @@
 [submodule "learning_notebooks/Generative-AI-Project_Sharjeeyl"]
 	path = learning_notebooks/Generative-AI-Project_Sharjeeyl
 	url = https://github.com/Sharjeeyl/Generative-AI-Projects
+[submodule "learning_notebooks/diffusion-transformer_VachanVY"]
+	path = learning_notebooks/diffusion-transformer_VachanVY
+	url = https://github.com/VachanVY/diffusion-transformer
