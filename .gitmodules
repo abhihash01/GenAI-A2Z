@@ -40,3 +40,6 @@
 [submodule "learning_notebooks/genai-sandbox_digicatapult"]
 	path = learning_notebooks/genai-sandbox_digicatapult
 	url = https://github.com/digicatapult/genai-sandbox
+[submodule "learning_notebooks/Generative-AI-Project_Sharjeeyl"]
+	path = learning_notebooks/Generative-AI-Project_Sharjeeyl
+	url = https://github.com/Sharjeeyl/Generative-AI-Projects
