@@ -34,3 +34,6 @@
 [submodule "learning_notebooks/generative-ai-notebooks_ScaDS"]
 	path = learning_notebooks/generative-ai-notebooks_ScaDS
 	url = https://github.com/ScaDS/generative-ai-notebooks
+[submodule "learning_notebooks/Synthesis-Studio_mijanr"]
+	path = learning_notebooks/Synthesis-Studio_mijanr
+	url = https://github.com/mijanr/Synthesis-Studio
