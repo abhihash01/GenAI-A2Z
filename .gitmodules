@@ -25,3 +25,6 @@
 [submodule "learning_notebooks/gan-projects_nerminnuraydogan"]
 	path = learning_notebooks/gan-projects_nerminnuraydogan
 	url = https://github.com/nerminnuraydogan/gan-projects.git
+[submodule "learning_notebooks/diffusion-gan-vae-pytorch_deepmancer"]
+	path = learning_notebooks/diffusion-gan-vae-pytorch_deepmancer
+	url = https://github.com/deepmancer/diffusion-gan-vae-pytorch
