@@ -31,3 +31,6 @@
 [submodule "learning_notebooks/GenerativeModels_Project-MONAI"]
 	path = learning_notebooks/GenerativeModels_Project-MONAI
 	url = https://github.com/Project-MONAI/GenerativeModels
+[submodule "learning_notebooks/generative-ai-notebooks_ScaDS"]
+	path = learning_notebooks/generative-ai-notebooks_ScaDS
+	url = https://github.com/ScaDS/generative-ai-notebooks
